@@ -5,9 +5,9 @@ import Portfolio from '../components/Portfolio';
 import Resume from '../components/Resume';
 import React, {Component} from 'react';
 
-function Header() {
+// function Header() {
   
-    return (
+//     return (
         
-    )
-}
+//     )
+// }

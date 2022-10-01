@@ -1,43 +1,16 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 function Nav() {
-
+    const contents = [{name:'About',link:'#about'}, {name:'Portfolio',link:'#portfolio'}, {name:'Contact',link:'#contact'}, {name:'Resume',link:'#resume'}]
     return (
-        <div className='topnav'>
-        <div className='topnav-left'>
-            <NavLink
-                activeClassName="navbar__link--active"
-                className="navbar__link"
-                to="/about"
-            >
-                About
-            </NavLink>
-        </div>
-        <div className='topnav-right'>
-            <NavLink
-                activeClassName="navbar__link--active"
-                className="navbar__link"
-                to="/portfolio"
-            >
-                Portfolio
-            </NavLink>
-            <NavLink
-                activeClassName="navbar__link--active"
-                className="navbar__link"
-                to="/contact"
-            >
-                Contact
-            </NavLink>
-            <NavLink
-                activeClassName="navbar__link--active"
-                className="navbar__link"
-                to="/resume"
-            >
-                Resume
-            </NavLink>
-        </div>
-    </div>
+
+        <ul>
+            {contents.map((content) => 
+            <li><a href={content.link}>{content.name}</a></li>)}
+        </ul>
+
+
+
     );
 }
 
