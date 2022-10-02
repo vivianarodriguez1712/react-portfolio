@@ -7,6 +7,9 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import codequiz from "./components/assets/images/codequiz.png";
+import "./components/assets/css/style.css";
+
 
 function App() {
   return (
@@ -14,7 +17,9 @@ function App() {
       <Header/>
       <main>
         <About></About>
-        <Portfolio/>
+        <Portfolio>
+        <img className="codequiz" src={"./components/assets/images/codequiz.png"} />
+        </Portfolio>
         <Contact/>
       </main>
       <Footer/>
