@@ -1,4 +1,4 @@
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -31,20 +31,20 @@
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
-  }
+  } 
   to {
     transform: rotate(360deg);
   }
 }
 
-.codequiz {
+/* .codequiz {
   height: 495px;
   background-image: url("/my-react-app/src/components/assets/images/codequiz.png");
   background-position: center;
   background-size: cover;
-} */
+} */ 
 
-.portfolio-images{ 
+/* .portfolio-images{ 
   max-width:20%;
   height: 495px;
- }
+ } */

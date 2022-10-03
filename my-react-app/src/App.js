@@ -17,9 +17,7 @@ function App() {
       <Header/>
       <main>
         <About></About>
-        <Portfolio>
-        <img src={process.env.PUBLIC_URL + '/assets/images/codequiz.png'} />         
-        </Portfolio>
+        <Portfolio/>
         <Contact/>
       </main>
       <Footer/>

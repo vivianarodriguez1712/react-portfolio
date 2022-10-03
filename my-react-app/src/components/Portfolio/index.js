@@ -1,10 +1,10 @@
 import React from 'react';
-// import runbuddy from '../assets/images/runbuddy.png'
-// import moviesearchengine from './assets/images/moviesearchengine.png'
-// import workdayscheduler from './assets/images/workdayscheduler.png'
-// import weatherdashboard from './assets/images/weatherdashboard.png'
+import runbuddy from '../assets/images/runbuddy.png'
+import moviesearchengine from '../assets/images/moviesearchengine.png'
+import workdayscheduler from '../assets/images/workdayscheduler.png'
+import weatherdashboard from '../assets/images/weatherdashboard.png'
 // import codequiz from './assets/images/codequiz.png'
-// import portfolio from './assets/images/portfolio.png'
+import portfolio from '../assets/images/portfolio.png'
 
 function Portfolio() {
     const contents = [
@@ -12,25 +12,25 @@ function Portfolio() {
             name: 'Run Buddy',
             link: 'https://lernantino.github.io/run-buddy/',
             Glink: 'https://github.com/vivianarodriguez1712/run-buddy',
-            image: 'runbuddy'
+            image: runbuddy
         },
         {
             name: 'Movie Search Engine',
             link: ' https://rrvallar.github.io/Movie-Search-Engine/',
             Glink: 'https://github.com/vivianarodriguez1712/Movie-Search-Engine',
-            image: 'moviesearchengine'
+            image: moviesearchengine
         },
         {
             name: 'Work Day Scheduler',
             link: ' https://vivianarodriguez1712.github.io/work-day-scheduler/',
             Glink: 'https://github.com/vivianarodriguez1712/work-day-scheduler',
-            image: 'workdayscheduler'
+            image: workdayscheduler
         },
         {
             name: 'Weather Dashboard',
             link: ' https://vivianarodriguez1712.github.io/weather-dashboard/',
             Glink: 'https://github.com/vivianarodriguez1712/weather-dashboard',
-            image: 'weatherdashboard'
+            image: weatherdashboard
         },
         {
             name: 'Code Quiz',
@@ -42,7 +42,7 @@ function Portfolio() {
             name: 'Portfolio',
             link: ' https://vivianarodriguez1712.github.io/Portfolio-/',
             Glink: 'https://github.com/vivianarodriguez1712/Portfolio-',
-            image: 'portfolio'
+            image: portfolio
         },
 
     ]
@@ -54,8 +54,7 @@ function Portfolio() {
                     <li key={content.name}>
                         <a href={content.link}>{content.name}</a>
                         <a href={content.Glink}> Repository</a>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/' + content.image +'.png'} />
-                        {/* <img src={content.image} alt={content.name}></img> */}
+                        <img src={content.image} alt={content.name}></img>
                     </li>)}
             </ul>
         </section>
