@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -37,3 +37,14 @@
   }
 }
 
+.codequiz {
+  height: 495px;
+  background-image: url("/my-react-app/src/components/assets/images/codequiz.png");
+  background-position: center;
+  background-size: cover;
+} */
+
+.portfolio-images{ 
+  max-width:20%;
+  height: 495px;
+ }
