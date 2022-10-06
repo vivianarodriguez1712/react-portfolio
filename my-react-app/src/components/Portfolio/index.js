@@ -3,7 +3,7 @@ import runbuddy from '../assets/images/runbuddy.png'
 import moviesearchengine from '../assets/images/moviesearchengine.png'
 import workdayscheduler from '../assets/images/workdayscheduler.png'
 import weatherdashboard from '../assets/images/weatherdashboard.png'
-// import codequiz from './assets/images/codequiz.png'
+import codequiz from '../assets/images/codequiz.png'
 import portfolio from '../assets/images/portfolio.png'
 
 function Portfolio() {
@@ -36,7 +36,7 @@ function Portfolio() {
             name: 'Code Quiz',
             link: ' https://vivianarodriguez1712.github.io/code-quiz/',
             Glink: 'https://github.com/vivianarodriguez1712/code-quiz',
-            image: 'codequiz'
+            image: codequiz
         },
         {
             name: 'Portfolio',
@@ -54,7 +54,7 @@ function Portfolio() {
                     <li key={content.name}>
                         <a href={content.link}>{content.name}</a>
                         <a href={content.Glink}> Repository</a>
-                        <img src={content.image} alt={content.name}></img>
+                        <img src={content.image} alt={content.name} width="200" height="200"></img>
                     </li>)}
             </ul>
         </section>

@@ -17,6 +17,9 @@ function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
 
+        if (inputValue === null) {
+         console.log(inputValue)
+        }
         if (inputType === 'email') {
             setEmail(inputValue);
         } else if (inputType === 'name') {
@@ -44,7 +47,7 @@ function Contact() {
 
     return (
         <div id='contact'>
-            <p>Hello {name}</p>
+            <h2>Contact {name}</h2>
             <form className="form">
                 <input
                     value={email}
@@ -78,8 +81,10 @@ function Contact() {
                 </div>
             )}
         </div>
+)}
 
-    );
-}
+  
+
+
 
 export default Contact;

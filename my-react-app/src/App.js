@@ -7,6 +7,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 // import codequiz from "./components/assets/images/codequiz.png";
 // import "./components/assets/css/style.css";
 
@@ -19,6 +20,7 @@ function App() {
         <About></About>
         <Portfolio/>
         <Contact/>
+        <Resume/>
       </main>
       <Footer/>
     </div>
