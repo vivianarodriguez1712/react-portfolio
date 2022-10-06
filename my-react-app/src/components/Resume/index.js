@@ -1,4 +1,5 @@
 import React from 'react'; 
+import VRresume from '../assets/images/VR-csr.png';
 
 function Resume() {
 
@@ -7,7 +8,7 @@ return(
     <h1>Resume</h1>
         <div class="row justify-content-center" id="resume">
             <div class="mt-5 pl-5 pr-5">
-                <a href="https://github.com/jpd61/jpd-react-portfolio/raw/master/src/assets/Resume-Joseph-DeWoody.pdf" class="link"></a>
+                <a href={VRresume} download className="link">Download Resume</a>
             </div>
         </div>
 
