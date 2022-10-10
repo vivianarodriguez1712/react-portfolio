@@ -5,7 +5,7 @@ function Resume() {
 
 return(
 <section class="mb-5">
-    <h1>Resume</h1>
+    <h1 class="resume">Resume</h1>
         <div class="row justify-content-center" id="resume">
             <div class="mt-5 pl-5 pr-5">
                 <a href={VRresume} download className="link">Download Resume</a>

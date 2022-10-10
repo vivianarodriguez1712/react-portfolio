@@ -12,3 +12,26 @@ code {
     monospace;
 }
 
+.header {
+  background-color:white;
+}
+
+:root {
+  background-color:pink;
+}
+
+.about {
+  background-color:ghostwhite;
+}
+
+.portfolio {
+  background-color: ghostwhite;
+}
+
+.contact {
+  background-color: ghostwhite;
+}
+
+.resume {
+  background-color: ghostwhite;
+}

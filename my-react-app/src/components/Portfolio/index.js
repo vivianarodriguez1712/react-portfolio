@@ -48,7 +48,7 @@ function Portfolio() {
     ]
     return (
         <section class="apps-developed">
-            <h2 id='portfolio'>Portfolio</h2>
+            <h2 class="portfolio">Portfolio</h2>
             <ul>
                 {contents.map((content) =>
                     <li key={content.name}>

@@ -9,7 +9,7 @@ export default function Header() {
   
     return (
         <>
-        <h1>
+        <h1 class="header navbar navbar-expand-lg bg-light">
             Viviana Rodriguez 
         </h1>
         <Nav/>
