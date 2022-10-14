@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a8977f47.css",
+    "main.js": "/react-portfolio/static/js/main.2d7d36dc.js",
+    "static/js/787.bc7d429a.chunk.js": "/react-portfolio/static/js/787.bc7d429a.chunk.js",
+    "static/media/prof_pic.jpg": "/react-portfolio/static/media/prof_pic.ce4b36099e59325b2933.jpg",
+    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.9fb573033797967e51d7.png",
+    "static/media/moviesearchengine.png": "/react-portfolio/static/media/moviesearchengine.2f0fbe1f7284827b9568.png",
+    "static/media/runbuddy.png": "/react-portfolio/static/media/runbuddy.13d9d5aa065065e4f631.png",
+    "static/media/weatherdashboard.png": "/react-portfolio/static/media/weatherdashboard.5dc93f966b1a353bb87f.png",
+    "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.4274412d7db71bd8ebd2.png",
+    "static/media/workdayscheduler.png": "/react-portfolio/static/media/workdayscheduler.c07b23c828da88409b94.png",
+    "static/media/VR-csr.png": "/react-portfolio/static/media/VR-csr.b6f207cc51d548109e2d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.a8977f47.css.map": "/react-portfolio/static/css/main.a8977f47.css.map",
+    "main.2d7d36dc.js.map": "/react-portfolio/static/js/main.2d7d36dc.js.map",
+    "787.bc7d429a.chunk.js.map": "/react-portfolio/static/js/787.bc7d429a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8977f47.css",
+    "static/js/main.2d7d36dc.js"
+  ]
+}
