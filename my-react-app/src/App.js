@@ -8,14 +8,13 @@ import Footer from './components/Footer'
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import Home from './components/pages/home';
+// import Home from './components/pages/home';
 // import "./components/assets/css/style.css";
 
 
 function App() {
   return (
     <div className="my-5">
-      <Home/>
       <Header/>
       <main>
         <About></About>
